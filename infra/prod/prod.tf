@@ -16,3 +16,9 @@ module "radar_website" {
 
   s3_bucket_name = "capra-radar-120532771136"
 }
+
+module "radar_website_teknologiledelse" {
+  source = "./../"
+
+  s3_bucket_name = "capra-radar-tekled-120532771136"
+}
