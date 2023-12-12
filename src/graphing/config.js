@@ -2,7 +2,7 @@ const quadrantSize = 512
 const quadrantGap = 32
 
 const getQuadrants = () => {
-  return JSON.parse(process.env.QUADRANTS || null) || ['Agile rammeverk', 'Organisasjonsutvikling', 'Ledelse', 'Teknisk praksis']
+  return JSON.parse(process.env.QUADRANTS || null) || ['Smidig', 'Organisasjon', 'Ledelse', 'Teknisk']
 }
 
 const getRings = () => {
